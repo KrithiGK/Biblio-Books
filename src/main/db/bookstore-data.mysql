@@ -1,0 +1,33 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1001;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`) VALUES ('Classics'),('Fantasy'),('Mystery'),('Fiction'),('Technology');
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('If he had been with me', 'By Laura Nowlin', '', 1065, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Everybody knows', 'By Jordan Harper', '', 1877, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('A World of Curiosities', 'By Louise Penny', '', 1494, 0, FALSE, TRUE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Never Lie', 'By Freida McFadden', '', 1271, 0, FALSE, TRUE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Reminders of him', 'By Colleen Hoover','',540,0,TRUE,FALSE,1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Haunting Adeline','By H D Carlton','',2097,0,FALSE,TRUE,1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('House of Sky and Breath','By Sarah J. Maas','',1168,0,FALSE,FALSE,1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Chain of Thorns','By Cassandra Clare','',1708,0,TRUE,TRUE,1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Crush','By Tracy Wolff','',759,0,FALSE,TRUE,1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('From Blood and Ash','By Jennifer L Armentrout','',1012,0,TRUE,FALSE,1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Perfect Marriage','By Jeneva Rose','',799,0,FALSE,TRUE,1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Exiles','By Jane Harper','',1398,0,TRUE,TRUE,1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('One Step Too Far','By Lisa Gardner','',326,0,FALSE,TRUE,1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Golden Spoon','By Jessa Maxwell','',2153,0,TRUE,FALSE,1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Cloisters','By Katy Hays','',1003,0,TRUE,TRUE,1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Things We Never Got Over','By Lucy Score','',478,0,FALSE,TRUE,1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('A Court of Wings and Ruin','By Sarah J Maas','',917,0,FALSE,FALSE,1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Twisted Love','By Ana Huang','',795,0,TRUE,FALSE,1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Fine Print','By Lauren Asher','',698,0,TRUE,TRUE,1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('This Girl','By Colleen Hoover','',882,0,FALSE,TRUE,1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Age of A.I.','By Henry Kissinger','',534,0,TRUE,FALSE,1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Excel Basics','By Henry E Mejia','',1124,0,TRUE,FALSE,1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Manager`s Path','By Camille Fournier','',2100,0,FALSE,FALSE,1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Chaos Machine','By Max Fisher','',1938,0,FALSE,TRUE,1005);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Learn Powershell in a Month','By Travis Plunk, James Petty','',3574,0,TRUE,TRUE,1005);
